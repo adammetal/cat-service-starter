@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/cats/
+
+###
+POST http://localhost:8080/api/cats
+Content-Type: application/json
+
+{
+  "name": "Mittens",
+  "age": 8,
+  "url": "https://cdn2.thecatapi.com/images/bev.jpg"
+}
